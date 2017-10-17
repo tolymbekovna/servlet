@@ -14,11 +14,11 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>checkboxtest</servlet-name>
+        <servlet-name>checkboxtestservlet</servlet-name>
         <servlet-class>kz.kaznitu.servlets.CheckBoxTestServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>checkboxtest</servlet-name>
+        <servlet-name>checkboxtestservlet</servlet-name>
         <url-pattern>/checkbox</url-pattern>
     </servlet-mapping>
 </web-app>
