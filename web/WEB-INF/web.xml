@@ -21,4 +21,13 @@
         <servlet-name>checkboxtestservlet</servlet-name>
         <url-pattern>/checkbox</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>allparameters</servlet-name>
+        <servlet-class>kz.kaznitu.servlets.ParameterTest2Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allparameters</servlet-name>
+        <url-pattern>/allparam</url-pattern>
+    </servlet-mapping>
 </web-app>
